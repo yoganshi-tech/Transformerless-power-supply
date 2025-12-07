@@ -5,21 +5,21 @@ The circuit uses a capacitive dropper, diode rectifier, Zener regulation, and fi
 
 📁 Project Contents
 
-schematic/ – KiCad schematic file (.kicad_sch)
-pcb/ – PCB layout file (.kicad_pcb)
-gerber/ – Manufacturing-ready Gerber files
-3d_view/ – 3D renders of the completed PCB
+schematic/ – KiCad schematic file (.kicad_sch),
+pcb/ – PCB layout file (.kicad_pcb),
+gerber/ – Manufacturing-ready Gerber files,
+3d_view/ – 3D renders of the completed PCB,
 README.md – Project documentation
 
 ⚡ Features
 
-Transformerless AC to DC supply
-Capacitive dropper input stage
-Full-bridge rectification using 1N4007 diodes
-Zener-based voltage regulation
-Smoothing using electrolytic capacitors
-On-board 5V output terminal
-Compact single-sided PCB design
+Transformerless AC to DC supply,
+Capacitive dropper input stage,
+Full-bridge rectification using 1N4007 diodes,
+Zener-based voltage regulation,
+Smoothing using electrolytic capacitors,
+On-board 5V output terminal,
+Compact single-sided PCB design,
 3D model preview included
 
 🛠️ Components Used
@@ -38,8 +38,8 @@ J1 / J2	  Screw terminal	        AC input / DC output
 
 🧩 Tools & Software
 
-KiCad 9.0.6 (Schematic + PCB)
-3D Viewer inside KiCad
+KiCad 9.0.6 (Schematic + PCB),
+3D Viewer inside KiCad,
 Any Gerber viewer for fabrication checks
 
 🖼️ Preview
@@ -50,10 +50,10 @@ Any Gerber viewer for fabrication checks
 🏗️ How to Use
 
 Open the project in KiCad.
-Review/edit schematic as needed.
+Review/edit schematic as needed.,
 Generate new Gerber files if required:
-File → Plot → Gerber
-Upload the Gerbers to any PCB manufacturer (JLCPCB, PCBWay, etc.)
+File → Plot → Gerber,
+Upload the Gerbers to any PCB manufacturer (JLCPCB, PCBWay, etc.),
 Solder components and test carefully with isolation and safety in mind.
 
 ⚠️ Safety Note
